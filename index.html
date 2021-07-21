@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table For Class 5th</title>
+    <style>
+        td,th{
+            border: 1px groove black;
+            padding: 10px;
+        }
+        table{
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table border="5">
+        <thead>
+            <tr>
+            <th>Days/periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th></th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Moday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td rowspan="6">B<br>R<br>E<br>A<br>K</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td rowspan="2">Moral Science</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="3">Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td colspan="3">Maths</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="8">This is Class X</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>My Bio Data</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Firstname">First Name:</label>
+            <input type="text" id="Firstname" placeholder="First Name">
+            <label for="Lastname">Last Name:</label>
+            <input type="text" id="Lastname" placeholder="Last Name">
+            <br>
+            <p>Gender:</p>
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">Others:</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <br>
+            <br>
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" placeholder="Enter your age">
+            <br>
+            <br>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" placeholder="dd-mm-yyyy">
+            <br>
+            <br>
+            <label for="Email">E-Mail:</label>
+            <input type="Email" id="Email" placeholder="Enter Your Email-id">
+            <br>
+            <br>
+            <label for="Contact">Contact Number:</label>
+            <input type="tel" id="Contact" placeholder="+91" max="10">
+            <br>
+            <br>
+            <label for="Aadhar">Aadhar Card:</label>
+            <input type="file" id="Aadhar">
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="University">University Name:</label>
+            <input type="text" id="University" placeholder="Enter Your University Name">
+            <br>
+            <br>
+            <label for="College">College Id:</label>
+            <input type="text" id="College" placeholder="Enter Your ID">
+            <br>
+            <br>
+            <label for="Year">Year:</label>
+            <select name="Year" id="Year" placeholder="Select your Year">
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+            </select>
+            <br>
+            <br>
+            <label for="Branch">Branch:</label>
+            <input type="text" id="Branch" placeholder="Branch">
+
+
+        </fieldset>
+        <label for="check">I agree that the above information is correct</label>
+        <input type="checkbox" id="check">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
